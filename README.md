@@ -1,6 +1,7 @@
 # graphql-express
 
-Based on a YT [tutorial 2019](`https://www.youtube.com/watch?v=ZQL7tL2S0oQ`) covering the basics of GraphQL
+Based on a YT [tutorial 2019](`https://www.youtube.com/watch?v=ZQL7tL2S0oQ`) covering the basics of GraphQL.
+**NOTE on Tutorial** it is filled with errors probably beacause it's outdated!
 
 ## Setup
 
@@ -23,3 +24,10 @@ Try now the browser at `localhost:5000/graphql` and you should get a nice error 
 
 5. First import the relevant libraris from graphql.
 6. Define the schema and pass it into the app.use() method call
+
+### A more complex data system
+
+- So the steps are to define the query type, the actual model types (both using the `GraphQLObjectType constructor`). On each model type you give it a name, a description and define the fields fo that type. Only in the query you define the `resolve` function which is just the code to get data from the database or any other source.
+
+7. Define a new `root query` type with fields for books and authors.
+8. Define the graphql types for `Book` and `Author`
