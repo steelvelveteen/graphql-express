@@ -1,6 +1,6 @@
 # graphql-express
 
-Based on a YT tutorial covering the basics of GraphQL
+Based on a YT [tutorial 2019](`https://www.youtube.com/watch?v=ZQL7tL2S0oQ`) covering the basics of GraphQL
 
 ## Setup
 
