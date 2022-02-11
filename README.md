@@ -31,3 +31,8 @@ Try now the browser at `localhost:5000/graphql` and you should get a nice error 
 
 7. Define a new `root query` type with fields for books and authors.
 8. Define the graphql types for `Book` and `Author`
+9. As an exercise: try to fetch authors and include all the books written by that author
+
+### Mutations - post put and delete for RestAPIs
+
+10. Create a new `Root query` but this time it will be a `RootMutationType` and add it to the `schema` right below the query
