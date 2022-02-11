@@ -122,17 +122,6 @@ const schema = new GraphQLSchema({
 	query: RootQueryType,
 	mutation: RootMutationType,
 });
-// const schema = new GraphQLSchema({
-// 	query: new GraphQLObjectType({
-// 		name: 'helloworld',
-// 		fields: () => ({
-// 			message: {
-// 				type: GraphQLString,
-// 				resolve: () => 'Hello World',
-// 			},
-// 		}),
-// 	}),
-// });
 
 app.use(
 	'/graphql',
