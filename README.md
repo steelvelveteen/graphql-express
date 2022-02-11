@@ -18,3 +18,8 @@ or
 > `const graphqlHTTP = require('express-graphql').graphqlHTTP;`
 
 Try now the browser at `localhost:5000/graphql` and you should get a nice error message `:)`
+
+### Setting up the GraphQL schema.
+
+5. First import the relevant libraris from graphql.
+6. Define the schema and pass it into the app.use() method call
