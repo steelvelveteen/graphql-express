@@ -36,3 +36,5 @@ Try now the browser at `localhost:5000/graphql` and you should get a nice error 
 ### Mutations - post put and delete for RestAPIs
 
 10. Create a new `Root query` but this time it will be a `RootMutationType` and add it to the `schema` right below the query
+11. The rest is quite intuitive.
+12. It is really an amazing technology!!
